@@ -247,3 +247,174 @@ banner返回示例
 		        }
 		    ]
 		}
+
+
+
+原生请求示例
+---------------
+
+.. sourcecode:: js
+
+		{
+		    "id": "39mqjw1CLysK1DEPnF0bRCBk1J5pAa",
+		    "imp": [
+		        {
+		            "id": "1",
+		            "banner": {
+		                "w": 448,
+		                "h": 252,
+		                "pos": 0
+		            },
+		            "tagid": "zap89a83f01f05a7fd761428593a13dd4093c3a5216",
+		            "bidfloor": 100,
+		            "bidfloorcur": "CNY",
+		            "native": {
+		                "RequestOneof": {
+		                    "RequestNative": {
+		                        "layout": 6,
+		                        "assets": [
+		                            {
+		                                "id": 1,
+		                                "required": true,
+		                                "AssetOneof": {
+		                                    "Title": {
+		                                        "len": 10
+		                                    }
+		                                }
+		                            },
+		                            {
+		                                "id": 3,
+		                                "required": true,
+		                                "AssetOneof": {
+		                                    "Img": {
+		                                        "type": 3,
+		                                        "w": 448,
+		                                        "h": 252
+		                                    }
+		                                }
+		                            },
+		                            {
+		                                "id": 2,
+		                                "required": false,
+		                                "AssetOneof": {
+		                                    "Img": {
+		                                        "type": 2,
+		                                        "w": 100,
+		                                        "h": 100
+		                                    }
+		                                }
+		                            },
+		                            {
+		                                "id": 4,
+		                                "required": true,
+		                                "AssetOneof": {
+		                                    "Data": {
+		                                        "type": 2,
+		                                        "len": 25
+		                                    }
+		                                }
+		                            }
+		                        ]
+		                    }
+		                }
+		            },
+		            "ext": {
+		                "inventory_types": [
+		                    6
+		                ]
+		            }
+		        }
+		    ],
+		    "app": {
+		        "id": "1007557",
+		        "name": "快手看片",
+		        "ver": "",
+		        "bundle": "com.kandian.vodapp"
+		    },
+		    "device": {
+		        "dnt": true,
+		        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+		        "ip": "127.0.0.1",
+		        "didsha1": "4a73c601fe3127dda8a51ec1e4bc874409e58459",
+		        "dpidsha1": "d0c6d45541dbf207df6f029dd60255ebc9ccff22",
+		        "make": "CHM-TL00H",
+		        "model": "CHM-TL00H",
+		        "os": "android",
+		        "osv": "4.4.4",
+		        "w": 720,
+		        "h": 1280,
+		        "ppi": 0,
+		        "connectiontype": 2,
+		        "devicetype": 1,
+		        "macsha1": "",
+		        "ext": {
+		            "plmn": "46000",
+		            "imei": "866329025824802",
+		            "imsi": "",
+		            "mac": "",
+		            "android_id": "e2f7602bff92ced8",
+		            "adid": "",
+		            "orientation": 2
+		        }
+		    },
+		    "ext": {
+		        "version": 1,
+		        "need_https": false
+		    }
+		}
+
+
+原生返回示例
+---------------
+
+.. sourcecode:: js
+
+
+		 "id": "0bts0B1CMf2R43Vd873UcMC705VRrv",
+		    "seatbid": [
+		        {
+		            "bid": [
+		                {
+		                    "id": "0bts0B1CMf2R43Vd873UcMC705VRrv",
+		                    "adid": "2017030911271377610",
+		                    "impid": "zapdd13a671432d4a653e372fa03b3c68971f788a12",
+		                    "price": 1000,
+		                    "AdmOneof": {
+		                        "AdmNative": {
+		                            "assets": [
+		                                {
+		                                    "id": 0,
+		                                    "img": {
+		                                        "url": "http://img.momocdn.com/ad/F4/17/F417956B-85EF-4CA2-A033-EA8FF0897B54_L.jpg"
+		                                    }
+		                                },
+		                                {
+		                                    "id": 1,
+		                                    "title": {
+		                                        "text": "掌游天下落地页"
+		                                    }
+		                                }
+		                            ],
+		                            "link": {
+		                                "url": "http://www.baidu.com"
+		                            }
+		                        }
+		                    },
+		                    "ext": {
+		                        "action": 1,
+		                        "imptrackers": [
+		                            "http://test.openad.immomo.com/dsp/zplay/display?tid=0bts0B1C703Hy7Db8DW7Iz8tcp-5SEntL-ansRbe2UqKcPDg7IYFd8s"
+		                        ],
+		                        "clktrackers": [
+		                            "http://test.openad.immomo.com/dsp/zplay/click?tid_PkEvBy4_DRRyZSWEcd6vhogizqCBoLUBPegSZW-rOyicZKz77x-zIgV"
+		                        ],
+		                        "inventory_type": 6
+		                    },
+		                    "nurl": "http://test.openad.immomo.com/dsp/zplay/win?tid=0bts0B1CMf2R43Vd873UE3HvFKz77x-zIgV&price={AUCTION_BID_PRICE}"
+		                }
+		            ]
+		        }
+		    ]
+		}
+
+
