@@ -11,6 +11,9 @@ extend zadx.BidRequest {
     // true标记是心跳检测请求。当为ping请求时，
     // DSP需要返回一个没有广告（即不设置BidResponse.ads字段）的应答
     optional bool is_ping = 202;
+
+    // true标记需要返回的所有素材及追踪链接必须是https链接，
+    optional bool need_https = 203;
 }
 
 
@@ -53,6 +56,9 @@ extend zadx.BidRequest.Device {
 
     // imsi码
     optional string imsi = 206;
+
+    // idfv码
+    optional string idfv = 207;
 }
 
 extend zadx.BidResponse.SeatBid.Bid {
