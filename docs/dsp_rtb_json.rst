@@ -53,8 +53,8 @@ Zplay Adx RTB 总共包含三个步骤。
 |               |          |               |       |                                      |
 +---------------+----------+---------------+-------+--------------------------------------+
 | bcat[]        | object   |               | 否    | 禁用的广告类别，iab详见[IAB §6.1](htt|
-|               |          |               |       | p://www.iab.net/media/file/OpenRTB_AP|
-|               |          |               |       | I_Specification_Version2.0_FINAL.PDF)|
+|               |          |               |       |p://www.iab.net/media/file/OpenRTB_API|
+|               |          |               |       |_Specification_Version2.0_FINAL.PDF)  |
 |               |          |               |       |                                      |
 +---------------+----------+---------------+-------+--------------------------------------+
 | user          | object   |               | 否    | User对象。用户信息                   |
@@ -99,8 +99,8 @@ App信息（BidRequest.App）
 | bundle        | string   |               | 否    | 为应用包名，例："com.zplay.demo"     |
 +---------------+----------+---------------+-------+--------------------------------------+
 | cat[]         | string   |               | 否    | 应用类型，详见[IAB §6.1](http://www.i|
-|               |          |               |       | ab.net/media/file/OpenRTB_API_Specifi|
-|               |          |               |       | cation_Version2.0_FINAL.PDF)         |
+|               |          |               |       |ab.net/media/file/OpenRTB_API_Specific|
+|               |          |               |       |ation_Version2.0_FINAL.PDF)           |
 +---------------+----------+---------------+-------+--------------------------------------+
 | publisher     | 对象     |               | 否    | [出品方信息](#BID_REQUEST_SITE_PUBLIS|
 |               |          |               |       | HER)                                 |
@@ -203,11 +203,11 @@ Geo对象（BidRequest.Device.Geo）
 +---------------+----------+---------------+-------+--------------------------------------+
 | country       | string   |               | 否    | 国家代码，请参见[ISO-3166-1 Alpha-3](|
 |               |          |               |       | https://en.wikipedia.org/wiki/ISO_316|
-|               |          |               |       | 6-1_alpha-3)                         |
+|               |          |               |       |6-1_alpha-3)                          |
 +---------------+----------+---------------+-------+--------------------------------------+
 | region        | string   |               | 否    | 国内是省名，美国是州的2个字母缩写，其|
 |               |          |               |       | 他国家请参见[ISO-3166-2](https://en.w|
-|               |          |               |       | ikipedia.org/wiki/ISO_3166-2)        |
+|               |          |               |       |ikipedia.org/wiki/ISO_3166-2)         |
 +---------------+----------+---------------+-------+--------------------------------------+
 | city          | string   |               | 否    | 城市名称, 例："北京"                 |
 +---------------+----------+---------------+-------+--------------------------------------+
@@ -225,8 +225,8 @@ Geo对象扩展（BidRequest.Device.Geo.Ext）
 | 字段名称      | 类型     | 默认值        | 必须  | 描述                                 |
 +===============+==========+===============+=======+======================================+
 | accu          | int32    | 0             | 否    | 精度，请参见[Decimal degrees](https:/|
-|               |          |               |       | /en.wikipedia.org/wiki/Decimal_degree|
-|               |          |               |       | s)                                   |
+|               |          |               |       |/en.wikipedia.org/wiki/Decimal_degrees|
+|               |          |               |       |)                                     |
 +---------------+----------+---------------+-------+--------------------------------------+
 | street        | string   |               | 否    | 街道名称， 例："知春路"              |
 +---------------+----------+---------------+-------+--------------------------------------+
@@ -526,16 +526,16 @@ Site信息（BidRequest.Site）
 | domain        | string   |               | 否    | 网站域名                             |
 +---------------+----------+---------------+-------+--------------------------------------+
 | cat           | string[] |               | 否    | 网站类别，详见[IAB §6.1](http://www.i|
-|               |          |               |       | ab.net/media/file/OpenRTB_API_Specifi|
-|               |          |               |       | cation_Version2.0_FINAL.PDF)         |
+|               |          |               |       |ab.net/media/file/OpenRTB_API_Specific|
+|               |          |               |       |ation_Version2.0_FINAL.PDF)           |
 +---------------+----------+---------------+-------+--------------------------------------+
 | sectioncat    | string[] |               | 否    | 当前频道类别，详见[IAB §6.1](http://w|
-|               |          |               |       | ww.iab.net/media/file/OpenRTB_API_Spe|
-|               |          |               |       | cification_Version2.0_FINAL.PDF)     |
+|               |          |               |       |ww.iab.net/media/file/OpenRTB_API_Spec|
+|               |          |               |       |ification_Version2.0_FINAL.PDF)       |
 +---------------+----------+---------------+-------+--------------------------------------+
 | pagecat       | string[] |               | 否    | 当前页面类别，详见[IAB §6.1](http://w|
-|               |          |               |       | ww.iab.net/media/file/OpenRTB_API_Spe|
-|               |          |               |       | cification_Version2.0_FINAL.PDF)     |
+|               |          |               |       |ww.iab.net/media/file/OpenRTB_API_Spec|
+|               |          |               |       |ification_Version2.0_FINAL.PDF)       |
 +---------------+----------+---------------+-------+--------------------------------------+
 | page          | string   |               | 否    | 当前页面URL地址                      |
 +---------------+----------+---------------+-------+--------------------------------------+
@@ -566,8 +566,8 @@ Site信息（BidRequest.Site）
 | domain        | string   |               | 否    | 出品方顶级网站域名                   |
 +---------------+----------+---------------+-------+--------------------------------------+
 | cat           | string[] |               | 否    | 出品方类别，详见[IAB §6.1](http://www|
-|               |          |               |       | .iab.net/media/file/OpenRTB_API_Speci|
-|               |          |               |       | fication_Version2.0_FINAL.PDF)       |
+|               |          |               |       |.iab.net/media/file/OpenRTB_API_Specif|
+|               |          |               |       |ication_Version2.0_FINAL.PDF)         |
 +---------------+----------+---------------+-------+--------------------------------------+
 
 
@@ -644,8 +644,8 @@ Bid信息（BidResponse.SeatBid.Bid）
 | h             | int32    |               | 否    | 素材高度                             |
 +---------------+----------+---------------+-------+--------------------------------------+
 | cat           | string[] |               | 否    | 广告类别，详见[IAB §6.1](http://www.i|
-|               |          |               |       | ab.net/media/file/OpenRTB_API_Specifi|
-|               |          |               |       | cation_Version2.0_FINAL.PDF)         |
+|               |          |               |       |ab.net/media/file/OpenRTB_API_Specific|
+|               |          |               |       |ation_Version2.0_FINAL.PDF)           |
 +---------------+----------+---------------+-------+--------------------------------------+
 | ext           | string   |               | **否**| bid信息的扩展                        |
 |               |          |               |       |                                      |
@@ -653,7 +653,7 @@ Bid信息（BidResponse.SeatBid.Bid）
 | adm           | string   |               | 否    | 广告物料，目前只在视频广告时使用。 视|
 |               |          |               |       | 频素材必须符合VAST 3.0规范，请参看[VA|
 |               |          |               |       | ST 3.0 标准](http://www.iab.com/wp-co|
-|               |          |               |       | ntent/uploads/2015/06/VASTv3_0.pdf)  |
+|               |          |               |       |ntent/uploads/2015/06/VASTv3_0.pdf)   |
 +---------------+----------+---------------+-------+--------------------------------------+
 | AdmOneof      | 对象     |               | 否    | 原生广告对象                         |
 +---------------+----------+---------------+-------+--------------------------------------+
