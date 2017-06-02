@@ -17,7 +17,7 @@ PHP
 		<?php
 		/*-------------------------example------------------------------*/
 		$PriceDec = new PriceDec($encKey, $sigKey);
-		$price = $PriceDec->decode("$enPrice");
+		$price = $PriceDec->decode($enPrice);
 		var_dump($price);
 		/*-------------------------example------------------------------*/
 
@@ -234,10 +234,10 @@ JAVA
 		    public static void main(String args[]) {
 		        
 		        PriceDec p = new PriceDec();
-		        p.setEncKey("$encKey");
-		        p.setSigKey("$sigKey");
+		        p.setEncKey($encKey);
+		        p.setSigKey($sigKey);
 
-		        String base64Str = "$enPrice";
+		        String base64Str = $enPrice;
 		        System.out.println(p.decode(base64Str));
 		    }
 		}
@@ -263,7 +263,7 @@ golang
 		)
 
 		func main() {
-			fmt.Println(Decode("fa4cb7dce5784c369caf61fa93e3185a", "1ce14bcd923246caa14e3fb9e06f9d79", "s6xCVl2H6xxY26wF3mA-HA"))
+			fmt.Println(Decode("这是dec_key", "这是sig_key", "这是price_enc"))
 		}
 
 		func Decode(dec_key, sig_key, price_enc string) (float64, error) {
@@ -367,7 +367,7 @@ C#
 			public static void Main(string[] args)
 			{
 				PriceDec a = new PriceDec();    
-				Console.WriteLine(a.decode("$encKey","$sigKey","$enPrice"));
+				Console.WriteLine(a.decode($encKey,$sigKey,$enPrice));
 				Console.ReadKey(true);
 			}
 		}
