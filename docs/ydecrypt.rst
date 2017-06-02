@@ -1,6 +1,14 @@
 价格解密算法示例
 ================
 
+.. note:: 可以使用的测试数据：
+
+enckey:ABE53CC1B7FDA2903681192D105A53EC
+sigkey:da2d9026aa90400cbc9c4db053e65b82
+加密价格：ebHrWLBZ_vQ8id_wknHJAw
+实际价格：3500
+
+
 PHP
 ---
 
@@ -8,10 +16,8 @@ PHP
 
 		<?php
 		/*-------------------------example------------------------------*/
-		$encKey = "7183e751829e457488a8f9e13cdb1292";
-		$sigKey = "b4056881520040a0af16fdccb99d68bb";
 		$PriceDec = new PriceDec($encKey, $sigKey);
-		$price = $PriceDec->decode("JR9YVr-YW3HcCETOOcw5nA");
+		$price = $PriceDec->decode("$enPrice");
 		var_dump($price);
 		/*-------------------------example------------------------------*/
 
@@ -228,10 +234,10 @@ JAVA
 		    public static void main(String args[]) {
 		        
 		        PriceDec p = new PriceDec();
-		        p.setEncKey("7183e751829e457488a8f9e13cdb1292");
-		        p.setSigKey("b4056881520040a0af16fdccb99d68bb");
+		        p.setEncKey("$encKey");
+		        p.setSigKey("$sigKey");
 
-		        String base64Str = "JR9YVr-YW3HcCETOOcw5nA";
+		        String base64Str = "$enPrice";
 		        System.out.println(p.decode(base64Str));
 		    }
 		}
@@ -361,7 +367,7 @@ C#
 			public static void Main(string[] args)
 			{
 				PriceDec a = new PriceDec();    
-				Console.WriteLine(a.decode("7183e751829e457488a8f9e13cdb1292","b4056881520040a0af16fdccb99d68bb","JR9YVr-YW3HcCETOOcw5nA"));
+				Console.WriteLine(a.decode("$encKey","$sigKey","$enPrice"));
 				Console.ReadKey(true);
 			}
 		}
