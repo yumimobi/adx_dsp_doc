@@ -33,6 +33,9 @@ extend zadx.BidRequest.Imp {
 
     // 支持的素材类型数组, 1:图片，2:图文，3:视频，4:html5
     repeated int32 inventory_types = 201;
+
+    // 广告类型，0:banner，1:插屏，2:开屏，3:原生，4:视频
+    optional int32 ad_type = 202;
 }
 
 extend zadx.BidRequest.Device {
@@ -91,6 +94,11 @@ extend zadx.BidResponse.SeatBid.Bid {
 
   // 下载文件名，动作类型为下载类型时需要
   optional string download_file_name = 209;
+
+  // 可玩式广告的开始播放追踪链接
+  repeated string play_start_trackers = 210;
+  // 可玩式广告的结束播放追踪链接
+  repeated string play_end_trackers = 211;
 }
 
 extend zadx.NativeResponse.Link {
