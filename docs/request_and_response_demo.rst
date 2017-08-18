@@ -8,6 +8,7 @@ banner请求示例
 --------------
 
 .. sourcecode:: js
+
 		{
 		    "id": "0bum3G1CQfE440EQrP0tUPoy3MGFhC",
 		    "imp": [
@@ -87,6 +88,7 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
+
 		{
 		    "id": "0bts0K1CQgtF0zJA6R1ZzppG4CJ3b4",
 		    "seatbid": [
@@ -131,6 +133,7 @@ banner返回示例
 --------------
 
 .. sourcecode:: js
+
 		{
 		    "id": "0bum1K1CQfE62Ae9r23W91zl4bip18",
 		    "imp": [
@@ -207,6 +210,7 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
+
 		{
 		    "id": "0bsZ061CQfE403tMax38YlB71cvWlH",
 		    "seatbid": [
@@ -250,6 +254,7 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
+
 		{
 		    "id": "39mqjw1CLysK1DEPnF0bRCBk1J5pAa",
 		    "imp": [
@@ -364,6 +369,7 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
+
 		 "id": "0bts0B1CMf2R43Vd873UcMC705VRrv",
 		    "seatbid": [
 		        {
