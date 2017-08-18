@@ -8,7 +8,6 @@ banner请求示例
 --------------
 
 .. sourcecode:: js
-
 		{
 		    "id": "0bum3G1CQfE440EQrP0tUPoy3MGFhC",
 		    "imp": [
@@ -19,19 +18,18 @@ banner请求示例
 		                "h": 100,
 		                "pos": 0
 		            },
-		            "ins
-		tl": false,
+		            "instl": false,
 		            "tagid": "zapf49b17bbd2a551e478a485a3a82e052fd6f5652c",
 		            "bidfloor": 130,
 		            "bidfloorcur": "CNY",
 		            "ext": {
-		                "inventory_type
-		s": [
+		                "inventory_typs": [
 		                    1,
 		                    2,
 		                    4,
 		                    5
-		                ]
+		                ]，
+		            "ad_type":0
 		            }
 		        }
 		    ],
@@ -61,23 +59,20 @@ banner请求示例
 		        "dpidsha1": "558d608a909c114d03536b28300e48d98dcd0abb",
 		        "make": "vivo",
 		        "model": "vivoY31A",
-		        "o
-		s": "android",
+		        "os": "android",
 		        "osv": "5.1.1",
 		        "w": 540,
 		        "h": 960,
 		        "ppi": 240,
 		        "connectiontype": 6,
 		        "devicetype": 4,
-		        "macsha1": "4c647a8d9efd629cd238c9c
-		0dc3c7928b1aa8671",
+		        "macsha1": "4c647a8d9efd629cd238c9c0dc3c7928b1aa8671",
 		        "ext": {
 		            "plmn": "46002",
 		            "imei": "862262030529799",
 		            "imsi": "460029329554417",
 		            "mac": "9c:a5:c0:cb:0a:e7",
-		            "and
-		roid_id": "b130955d7ef56ed4",
+		            "android_id": "b130955d7ef56ed4",
 		            "adid": "",
 		            "orientation": 1
 		        }
@@ -92,7 +87,6 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
-
 		{
 		    "id": "0bts0K1CQgtF0zJA6R1ZzppG4CJ3b4",
 		    "seatbid": [
@@ -137,7 +131,6 @@ banner返回示例
 --------------
 
 .. sourcecode:: js
-
 		{
 		    "id": "0bum1K1CQfE62Ae9r23W91zl4bip18",
 		    "imp": [
@@ -156,7 +149,8 @@ banner返回示例
 		                "is_splash_screen": true,
 		                "inventory_types": [
 		                    1
-		                ]
+		                ],
+		                "ad_type":1
 		            }
 		        }
 		    ],
@@ -213,7 +207,6 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
-
 		{
 		    "id": "0bsZ061CQfE403tMax38YlB71cvWlH",
 		    "seatbid": [
@@ -257,7 +250,6 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
-
 		{
 		    "id": "39mqjw1CLysK1DEPnF0bRCBk1J5pAa",
 		    "imp": [
@@ -324,7 +316,8 @@ banner返回示例
 		            "ext": {
 		                "inventory_types": [
 		                    6
-		                ]
+		                ],
+		                "ad_type":3
 		            }
 		        }
 		    ],
@@ -371,8 +364,6 @@ banner返回示例
 ---------------
 
 .. sourcecode:: js
-
-
 		 "id": "0bts0B1CMf2R43Vd873UcMC705VRrv",
 		    "seatbid": [
 		        {
