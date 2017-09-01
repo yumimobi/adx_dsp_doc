@@ -12,21 +12,21 @@
 
 1.添加请求接收地址
 
-.. image:: /img/url_seeting.jpg
+.. image:: /img/url_seeting.png
 
 2.创建请求
 
-.. image:: /img/test_step.jpg
+.. image:: /img/test_step.png
 
 点击第一步，即可进入请求设置界面
 
-.. image:: /img/new_req.jpg
+.. image:: /img/new_req.png
 
 在这里，可设置广告形式、物料格式；如果要支持广告位定向，可在广告位id处填写，以便测试
 
 3.发起请求
 
-.. image:: /img/test_step.jpg
+.. image:: /img/test_step.png
 
 点击第二步，即可发起测试请求
 
