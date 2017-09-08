@@ -29,7 +29,7 @@ banner请求示例
 		                    2,
 		                    4,
 		                    5
-		                ]，
+		                ],
 		            "ad_type":0
 		            }
 		        }
@@ -83,7 +83,7 @@ banner请求示例
 		        "need_https": false
 		    }
 		}
-
+		
 banner返回示例
 ---------------
 
