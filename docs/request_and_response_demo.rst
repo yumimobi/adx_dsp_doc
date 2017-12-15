@@ -55,8 +55,7 @@ banner请求示例
 		                "accu": 0
 		            }
 		        },
-		        "didsha1": "5d3b81d9b4
-		fc532586410026835dc35f93697695",
+		        "didsha1": "5d3b81d9b4fc532586410026835dc35f93697695",
 		        "dpidsha1": "558d608a909c114d03536b28300e48d98dcd0abb",
 		        "make": "vivo",
 		        "model": "vivoY31A",
@@ -104,17 +103,17 @@ banner返回示例
 		                    "iurl": "http://img.pxene.com/dav/65d106ff-2cb9-4ae7-a2d8-897fe3f05f64/image/37f5e37fb84945bcb4f29bdb6dbce990.jpg",
 		                    "adm": "",
 		                    "ext": {
-		                        "clkurl": "http://e.cn.miaozhen.com/r/k=2038947&p=75Y7B&dx=__IPDX__&rt=2&ns=183.16.2.121&ni=__IESID__&v=__LOC__&xa=__ADPLATFORM__&ro=sm&mo=0&m0=__OPENUDID__&m0a=__DUID__&m1=__ANDROIDID1__&m1a=6e20e140cfd73735006479b824d9a1fd&m2=b2196f839dae8187e6b2c1931ca847f6&m4=__AAID__&m5=__IDFA__&m6=__MAC1__&m6a=__MAC__&o=http://site.pxene.com/minisiteWap/Accord_3h/",
+		                        "clkurl": "http://e.cn.mozhen.com/r/k=2038947&p=75Y7B&dx=__IPDX__&rt=2&ns=183.16.2.121&ni=__IESID__&v=__LOC__&xa=__ADPLATFORM__&ro=sm&mo=0&m479b824d9a1fd&m2=b2196f839dae8187e6b2c1931ca847f6&m4=__AAID__&m5=__IDFA__&m6=__MAC1__&m6a=__MAC__&o=http://site.pxene.com/minisiteWap/Accord_3h/",
 		                        "imptrackers": [
-		                            "http://sapi.wanzhuanmobile.com/phone/notify.php?act=show&log=dspid%3D101%26uniplayid%3D1636400010%26rid%3D27170321175320259213%26adid%3DSDK201616090411451r7ykol3qo7e0ou%26wzid%3D1010009%26pkg%3Dcom.zplay.migupopstar.mi%26did%3D5c8ade2b7a036131f7c7d25aeb08e2cc%26opt%3D46000%26plt%3D1%26slotid%3Dbanner%26ads%3D640x100%26sdkv%3D6%26ts%3D1490090000%26ip%3D183.16.2.121",
-		                            "http://open.adview.cn/agent/openDisplay.do?st=0&uuidEncType=0&sv=0&src=75&sy=0&nt=&adi=20170321-175320_5366_130-1030-dKts-608_1&bi=com.brianbaek.popstar&ai=lP9I8FoBAABwFVtCG1dCYDcl1u5-bTTsiRPP7JLObCfdc7rllsjtV0RYEQ4uwqRrFFz2qqWIEfdeBdEdZN2nL0YNdmYYV4nGsTrpJSnPCNcEPPxcS4c-PGWdYv2p5NeOUxdkoG2xwJSZOpJrLaVP-p5VACHF1peyAcXmszjpDq6ic7jmKop9f_bpKb0mq1EY3aLJiBEQSBL1VT82qQpkaKboKeo5QKM1llQEKDBYtsvF-tnogFjY-anhbTqHg10&ud=864595026401350&andt=0&as=640x100&se=46000&cv=&rqt=1&ti=1490090005&tm=0&to=dbdb4790f0cc46f1fdd6facee9bc1845&aid=SDK201616090411451r7ykol3qo7e0ou&ro=1&ca=0",
-		                            "http://ip2.pxene.com/ic?adx=14&bid=20170321-175320_bidreq_130-1030-NGzw-591&mtype=m&mapid=d2495550-d1a0-4fde-81d4-fdc634451a36&deviceid=c1019e7dbcdee277d3ec15be7cccfb554f737c5b&deviceidtype=97&appid=e1aa0807c3d23e49311b73a3580dd77a&nw=1&os=2&tp=1&reqip=183.16.2.121&gp=1156440300&mb=3&op=1&md=MI+3",
-		                            "http://g.cn.miaozhen.com/x/k=2038947&p=75Y7B&dx=__IPDX__&rt=2&ns=183.16.2.121&ni=__IESID__&v=__LOC__&xa=__ADPLATFORM__&mo=0&m0=__OPENUDID__&m0a=__DUID__&m1=__ANDROIDID1__&m1a=6e20e140cfd73735006479b824d9a1fd&m2=b2196f839dae8187e6b2c1931ca847f6&m4=__AAID__&m5=__IDFA__&m6=__MAC1__&m6a=__MAC__&o="
+		                            "http://sapi.wobile.com/phone/notify.php?act=show&log=dspid%3D101%26uniplayid%3D1636400010%26rid%3D27170321175320259213%26adiplay.6%3D1%26slotd%3Dbanner%26ads%3D640x100%26sdkv%3D6%26ts%3D14900900%26ip%3D183.16.2.121",
+		                            "http://open.aview.cn/agent/openDisplay.do?st=0&uuidEncType=0&sv=0&b4790f0cc46f1fdd6facee9bc1845&aid=SDK201616090411451r7ykol3qo7e0ou&ro=1&ca=0",
+		                            "http://ip2.pxene.comapid=d2495550-d1a0-4fde-81d4-fdc634451a36&depid=e1aa0807c3d23e49311b73a3580dd77a&nw=1&os=2&tp=1&reqip=183.16.2.121&gp=1156440300&mb=3&op=1&md=MI+3",
+		                            "http://g.cn.miaozhen.com/x/k=2038947&p=75Y7B&dx=__IPDX__&rt=2&ns=183.16.2.1__IESID__&v=__LOC__&xa=__ADPLATFORM__&mo=0&m0=__OPE006479b824d9a1fd&m2=b2196f839dae8187e6b2c1931ca847f6&m4=__AAID__&m5=__IDFA__&m6=__MAC1__&m6a=__MAC__&o="
 		                        ],
 		                        "clktrackers": [
-		                            "http://api.wanzhuanmobile.com/phone/notify.php?act=click&log=dspid%3D101%26uniplayid%3D1636400010%26rid%3D27170321175320259213%26adid%3DSDK201616090411451r7ykol3qo7e0ou%26wzid%3D1010009%26pkg%3Dcom.zplay.migupopstar.mi%26did%3D5c8ade2b7a036131f7c7d25aeb08e2cc%26opt%3D46000%26plt%3D1%26slotid%3Dbanner%26ads%3D640x100%26sdkv%3D6%26ts%3D1490090000%26ip%3D183.16.2.121",
-		                            "http://open.adview.cn/agent/openClick.do?st=0&uuidEncType=0&sv=0&src=75&sy=0&nt=&adi=20170321-175320_5366_130-1030-dKts-608_1&bi=com.brianbaek.popstar&ai=lP9I8FoBAABwFVtCG1dCYDcl1u5-bTTsiRPP7JLObCfdc7rllsjtV0RYEQ4uwqRrFFz2qqWIEfdeBdEdZN2nL0YNdmYYV4nGsTrpJSnPCNcEPPxcS4c-PGWdYv2p5NeOUxdkoG2xwJSZOpJrLaVP-p5VACHF1peyAcXmszjpDq6ic7jmKop9f_bpKb0mq1EY3aLJiBEQSBL1VT82qQpkaKboKeo5QKM1llQEKDBYtsvF-tnogFjY-anhbTqHg10&ud=864595026401350&andt=0&as=640x100&se=46000&cv=&rqt=1&ti=1490090005&tm=0&to=dbdb4790f0cc46f1fdd6facee9bc1845&aid=SDK201616090411451r7ykol3qo7e0ou&ro=1&ca=0",
-		                            "http://cl2.pxene.com/ic?adx=14&bid=20170321-175320_bidreq_130-1030-NGzw-591&mtype=c&mapid=d2495550-d1a0-4fde-81d4-fdc634451a36&deviceid=c1019e7dbcdee277d3ec15be7cccfb554f737c5b&deviceidtype=97&appid=e1aa0807c3d23e49311b73a3580dd77a&nw=1&os=2&tp=1&reqip=183.16.2.121&gp=1156440300&mb=3&op=1&md=MI+3&url="
+		                            "http://api.wanzhu.SDK201616090411451r7ykol3qo7e0ou%26wzid%3D1010009%26pkg%3Dcom.zplay.migupopstar.mi%26did%3D5c8ade2b7a03613126opt%3D46000%26plt%3D1%26slotid%3Dbanner%26ax100%26sdkv%3D6%26ts%3D1490090000%26ip%3D183.16.2.121",
+		                            "http://open.advew.cn/aid=SDK201616090411451r7ykol3qo7e0ou&ro=1&ca=0",
+		                            "http://cl2.pxene.com/ic?adx=14&bid=20170321-175320_bidreq_130-1030-NGzw-591&mtype=c&mapid=d2495550-d1a0-4fde-81d4-fdc6344dtype=97&appi23e49311b73a3580dd77a&nw=1&os=2&tp=1&reqip=183.16.2.121&gp=1156440300&mb=3&op=1&md=MI+3&url="
 		                        ],
 		                        "title": "",
 		                        "desc": "",
@@ -221,7 +220,7 @@ banner返回示例
 		                    "impid": "1",
 		                    "price": 1100,
 		                    "adid": "370",
-		                    "nurl": "http://dsptrack.ad-mex.com/winnotice?requestid=0bsZ061CQfE403tMax38YlB71cvWlH&adgroupid=86&netid=018&netname=adszp&devicetype=HIGHEND_PHONE&os=android&connectiontype=CELL_4G&material_id=370&adid=NA&android_id=bbd424977f85c210&android_id_md5=NA&android_id_sha1=4e5065c08b0e5fcbdf49f298753d39ae98ebd9f2&imei=869896027210369&imei_md5=NA&imei_sha1=beb7991f15e3dac8dba6e9e03c0c41557f929c06&deviceID=869896027210369&mac=c4%3A66%3A99%3A9c%3A63%3Af8&mac_md5=NA&mac_sha1=5edfc6b4ece376ecaeb7cb1e96371e28925bfd31&remote_addr=223.104.108.146&cur_adv=RMB&cur_adx=RMB&adver_id=6&campaign_id=18&resptimestamp=20170321170000664&height=960&width=640&make=NA&model=vivoX6A&bundle=com.vlife&ip=223.104.108.146&app_name=VLife&material_type=banner",
+		                    "nurl": "http://dsptrack.ad-ex.com/winnotice?requestid=0bsZ061CQfE403tMax38YlB71cvWlH&adgr104.108.146&app_name=VLife&material_type=banner",
 		                    "adomain": [
 		                        "http://www.adidas.com.cn/"
 		                    ],
@@ -234,11 +233,11 @@ banner返回示例
 		                    "ext": {
 		                        "imptrackers": [
 		                            "http://g.cn.miaozhen.com/x/k=2039081&p=75VMG&dx=__IPDX__&rt=2&ns=223.104.108.146&ni=__IESID__&v=__LOC__&xa=__ADPLATFORM__&mo=0&m0=__OPENUDID__&m0a=__DUID__&m1=bbd424977f85c210&m1a=__ANDROIDID__&m2=0f11e9b670e033f52da2e3a910523cf0&m4=__AAID__&m5=__IDFA__&m6=__MAC1__&m6a=__MAC__&o=",
-		                            "http://dsptrack.ad-mex.com/adImp?requestid=0bsZ061CQfE403tMax38YlB71cvWlH&adgroupid=86&netid=018&netname=adszp&devicetype=HIGHEND_PHONE&os=android&connectiontype=CELL_4G&material_id=370&adid=NA&android_id=bbd424977f85c210&android_id_md5=NA&android_id_sha1=4e5065c08b0e5fcbdf49f298753d39ae98ebd9f2&imei=869896027210369&imei_md5=NA&imei_sha1=beb7991f15e3dac8dba6e9e03c0c41557f929c06&deviceID=869896027210369&mac=c4%3A66%3A99%3A9c%3A63%3Af8&mac_md5=NA&mac_sha1=5edfc6b4ece376ecaeb7cb1e96371e28925bfd31&remote_addr=223.104.108.146&cur_adv=RMB&cur_adx=RMB&adver_id=6&campaign_id=18&resptimestamp=20170321170000664&height=960&width=640&make=NA&model=vivoX6A&bundle=com.vlife&ip=223.104.108.146&app_name=VLife&material_type=banner&price={AUCTION_BID_PRICE}"
+		                            "http://dsptrack.ad-mex.com/adImp?requestid=0bsZ061CQfE403tMax38YlB71cvWlvlife&ip=223.104.108.146&app_name=VLife&material_type=banner&price={AUCTION_BID_PRICE}"
 		                        ],
 		                        "clktrackers": [
 		                            "http://e.cn.miaozhen.com/r/k=2039081&p=75VMG&dx=__IPDX__&rt=2&ns=__IP__&ni=__IESID__&v=__LOC__&xa=__ADPLATFORM__&vo=32d0b8d2a&vr=2&o=http%3A%2F%2Fad.yoho.cn%2Fhtml5%2F2017%2F02%2Fadidas%2Findex.html",
-		                            "http://dsptrack.ad-mex.com/adClick?requestid=0bsZ061CQfE403tMax38YlB71cvWlH&adgroupid=86&netid=018&netname=adszp&devicetype=HIGHEND_PHONE&os=android&connectiontype=CELL_4G&material_id=370&adid=NA&android_id=bbd424977f85c210&android_id_md5=NA&android_id_sha1=4e5065c08b0e5fcbdf49f298753d39ae98ebd9f2&imei=869896027210369&imei_md5=NA&imei_sha1=beb7991f15e3dac8dba6e9e03c0c41557f929c06&deviceID=869896027210369&mac=c4%3A66%3A99%3A9c%3A63%3Af8&mac_md5=NA&mac_sha1=5edfc6b4ece376ecaeb7cb1e96371e28925bfd31&remote_addr=223.104.108.146&cur_adv=RMB&cur_adx=RMB&adver_id=6&campaign_id=18&resptimestamp=20170321170000664&height=960&width=640&make=NA&model=vivoX6A&bundle=com.vlife&ip=223.104.108.146&app_name=VLife&material_type=banner"
+		                            "http://dsptrackhp=223.104.108.146&app_name=VLife&material_type=banner"
 		                        ],
 		                        "clkurl": "http://ad.yoho.cn/html5/2017/02/adidas/index.html"
 		                    }
@@ -370,7 +369,7 @@ banner返回示例
 
 .. sourcecode:: js
 
-		 "id": "0bts0B1CMf2R43Vd873UcMC705VRrv",
+		{"id": "0bts0B1CMf2R43Vd873UcMC705VRrv",
 		    "seatbid": [
 		        {
 		            "bid": [
@@ -418,3 +417,36 @@ banner返回示例
 		}
 
 
+
+视频示例
+---------------
+
+.. note:: 视频请求的inventory_type=3；需要返回vast视频和展示图片两部分，展示图片可在iurl或者html_snippet返回。这里简单那给下adm的vast示例，
+
+.. sourcecode:: js
+
+		<VAST>
+		  <Ad id="14921137">
+		    <InLine>
+		      <AdSystem><![CDATA[ yodao dsp ]]></AdSystem>
+		      <AdTitle><![CDATA[ video ad ]]></AdTitle>
+		      <Description><![CDATA[ video ad ]]></Description>
+		      <Creatives>
+		        <Creative id="14921137" AdID="14921137" sequence="1">
+		          <linear>
+		            <Duration>12</Duration>  
+		            ..
+		              这里的播放时长要求正整数，否则会解析出错
+		            <MediaFiles>
+		              <MediaFile id="14921137"><![CDATA[ http://live.us.sinaimg.cn/002qTVxrjx074BMTTYSI010401000rFi0k01.mp4 ]]></MediaFile>
+		            </MediaFiles>
+		            <TrackingEvents>
+		              <Tracking event="start"><![CDATA[ http://q105x.cop.yodao.com:8090/impplay.s?ext=Ch4wYnNKZjYxQzU3Wnc0OH%2F%2F%2F%2FwGiAQRXSUZJwgEkYjM1MTM5NDYtOWRmNy00MDhjLTg1YTAtN2M3NzFhMGVlMTJj0gEA2gEFNS4wLjE%3D&event_type=205&play_percent=0.0 ]]></Tracking>
+		              <Tracking event="complete"><![CDATA[ http://qt105x.corp.yodao.com:8090/impplay.s?ext=Ch4wYnNKZjYxQzU3Wnc0OHJ4NlUwellINDIyQnFmdDYQyvQPGMO6HiDTnqQCKLHbjgcwdDoOMTA2LjM4LjEyMC4xMTRA%2BeO8lYUrSAFSBDEzNzhaIGJlN2I5MmEt_type=205&play_percent=1.0 ]]></Tracking>
+		            </TrackingEvents>
+		          </linear>
+		        </Creative>
+		      </Creatives>
+		    </InLine>
+		  </Ad>
+		</VAST>
