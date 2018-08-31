@@ -421,7 +421,7 @@ banner返回示例
 视频示例
 ---------------
 
-.. note:: 视频请求的inventory_type=3；需要返回vast视频和展示图片两部分，展示图片可在iurl或者html_snippet返回。这里简单那给下adm的vast示例，
+.. note:: 视频请求的inventory_type=3；需要返回vast视频和展示图片两部分，展示图片可在iurl或者html_snippet返回。这里简单那给下adm的vast示例，对接过程请参考VAST标准协议
 
 .. sourcecode:: js
 
@@ -433,8 +433,8 @@ banner返回示例
 		      <Description><![CDATA[ video ad ]]></Description>
 		      <Creatives>
 		        <Creative id="14921137" AdID="14921137" sequence="1">
-		          <linear>
-		            <Duration>12</Duration>  
+		          <Linear>
+		            <Duration>00:00:12</Duration>  
 		            ..
 		              这里的播放时长要求正整数，否则会解析出错
 		            <MediaFiles>
@@ -444,7 +444,7 @@ banner返回示例
 		              <Tracking event="start"><![CDATA[ http://q105x.cop.yodao.com:8090/impplay.s?ext=Ch4wYnNKZjYxQzU3Wnc0OH%2F%2F%2F%2FwGiAQRXSUZJwgEkYjM1MTM5NDYtOWRmNy00MDhjLTg1YTAtN2M3NzFhMGVlMTJj0gEA2gEFNS4wLjE%3D&event_type=205&play_percent=0.0 ]]></Tracking>
 		              <Tracking event="complete"><![CDATA[ http://qt105x.corp.yodao.com:8090/impplay.s?ext=Ch4wYnNKZjYxQzU3Wnc0OHJ4NlUwellINDIyQnFmdDYQyvQPGMO6HiDTnqQCKLHbjgcwdDoOMTA2LjM4LjEyMC4xMTRA%2BeO8lYUrSAFSBDEzNzhaIGJlN2I5MmEt_type=205&play_percent=1.0 ]]></Tracking>
 		            </TrackingEvents>
-		          </linear>
+		          </Linear>
 		        </Creative>
 		      </Creatives>
 		    </InLine>
