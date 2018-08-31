@@ -436,7 +436,7 @@ banner返回示例
 		          <Linear>
 		            <Duration>00:00:12</Duration>  
 		            ..
-		              这里的播放时长要求正整数，否则会解析出错
+		              这里的播放时长的秒要求正整数，否则会解析出错
 		            <MediaFiles>
 		              <MediaFile id="14921137"><![CDATA[ http://live.us.sinaimg.cn/002qTVxrjx074BMTTYSI010401000rFi0k01.mp4 ]]></MediaFile>
 		            </MediaFiles>
